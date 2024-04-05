@@ -33,7 +33,7 @@ export default function Postform({ addDraftedPost }) {
         <form onSubmit={handleSubmit} className="max-w-lg mx-auto mt-8">
         <div className="flex  gap-4">
             <textarea
-                className="border border-gray-300 rounded-lg px-4 py-2 placeholder-gray-700 focus:outline-none focus:border-blue-500"
+                className="border border-gray-300 text-black rounded-lg px-4 py-2 placeholder-gray-700 focus:outline-none focus:border-blue-500"
                 value={content}
                 onChange={handleContentChange}
                 placeholder="Write your post"
